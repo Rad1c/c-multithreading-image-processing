@@ -1,0 +1,30 @@
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\prsv02\prsv02\obj\x86\Debug\prsv02.exe
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\prsv02\prsv02\obj\x86\Debug\prsv02.pdb
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.exe
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.pdb
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\bin\Debug\prsv02.exe
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\bin\Debug\prsv02.pdb
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\About.baml
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\MainWindow.baml
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\About.g.cs
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\App.g.cs
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02_MarkupCompile.cache
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.g.resources
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.Properties.Resources.resources
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\obj\x86\Debug\Simple Photo Editor.csproj.GenerateResource.Cache
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\Aktuelno\Simple Photo Editor\prsv02\bin\Debug\Resources\appIcon.png
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.exe
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.pdb
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\bin\Debug\Resources\appIcon.png
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\bin\Debug\prsv02.exe
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\bin\Debug\prsv02.pdb
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\About.baml
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\MainWindow.baml
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\About.g.cs
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\App.g.cs
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02_MarkupCompile.cache
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.g.resources
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\prsv02.Properties.Resources.resources
+C:\Users\Radic\OneDrive - Faculty of Electrical Engineering, University of East Sarajevo\IV_godina\PRS\Simple Photo Editor\prsv02\obj\x86\Debug\Simple Photo Editor.csproj.GenerateResource.Cache

@@ -1,0 +1,69 @@
+﻿<Window x:Class="prsv02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Simple Photo Editor" Background="#fffefe" WindowStartupLocation="CenterScreen" Height="412" Width="680" FontSize="14" MinWidth="550" MinHeight="330" MaxWidth="780" MaxHeight="450" ResizeMode="CanMinimize" Name="mainWindow" FontFamily="Calibri" Icon="/prsv02;component/Images/appIcon.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25px" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="186*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*" />
+            <ColumnDefinition Width="130*" />
+            <ColumnDefinition Width="40*" />
+            <ColumnDefinition Width="130*" />
+            <ColumnDefinition Width="207*" />
+            <ColumnDefinition Width="57*" />
+            <ColumnDefinition Width="122*" />
+        </Grid.ColumnDefinitions>
+        <Menu Name="navMenu" FontSize="15" Grid.ColumnSpan="7" Margin="10,0" Background="White">
+            <MenuItem Header="_File" FontSize="14">
+                <MenuItem Header="_Open" Name="miOpen" Click="miOpen_Click" />
+                <MenuItem Header="_Save" Name="miSave" IsEnabled="False" Click="miSave_Click" />
+                <MenuItem Header="_Save As" Name="miSaveAs" IsEnabled="False" Click="miSaveAs_Click" />
+                <Separator/>
+                <MenuItem Header="_Exit" Name="miExit" Click="miExit_Click" />
+            </MenuItem>
+            <MenuItem Header="_About" FontSize="14" Click="MenuItem_Click" />
+        </Menu>
+        <Border BorderBrush="#d5dee4" Grid.Row="1" BorderThickness="1" Grid.RowSpan="4" Margin="10" CornerRadius="7" Grid.ColumnSpan="5">
+            <Image Grid.Row="1" Name="imgSource" Grid.RowSpan="4" Margin="10"/>
+        </Border>
+        <Label Content="Mode:" Grid.Column="5" Grid.Row="1" Height="28"  Name="label1" Grid.ColumnSpan="2" Margin="5,0,0,0" />
+        <ComboBox Grid.Column="6" Background="#FFEFEFEF" Grid.Row="1" Height="23" Name="cmbMode" Margin="0,0,10,0" Padding="10,0,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Left">
+            <ComboBoxItem Content="Parallel" IsSelected="True" />
+            <ComboBoxItem Content="Non-parallel" />
+        </ComboBox>
+        <GroupBox Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="2" Header="Filters" Name="gbFilters" Margin="5,5,10,0">
+            <Grid>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <RadioButton Content="Red filter" Grid.Column="1" Height="16" HorizontalAlignment="Left" Margin="10,0,0,0" Name="rbRedFilter"/>
+                    <RadioButton Content="Green filter" Grid.Column="1" Height="16" HorizontalAlignment="Left" Grid.Row="1" Margin="10,0,0,0" Name="rbGreenFilter"/>
+                    <RadioButton Content="Blue filter" Grid.Column="1" Height="16" HorizontalAlignment="Left" Grid.Row="2" Margin="10,0,0,0" Name="rbBlueFilter"/>
+                    <RadioButton Content="Invert Colors" Grid.Column="1" Height="16" HorizontalAlignment="Left" Grid.Row="3" Margin="10,0,0,0" Name="rbInvertColorsFilter"/>
+                </Grid>
+            </Grid>
+        </GroupBox>
+        <Button Content="Start" Grid.Column="5" Grid.Row="3" Height="23" Name="btnStart"  Width="97" Grid.ColumnSpan="2" BorderThickness="0.5" Background="#FF5FE85F" Click="btnStart_Click" />
+        <Button Content="Reset" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="4" Height="23" Name="btnReset"  Width="97" Background="#FFEBA6A6" Click="btnReset_Click" BorderThickness="0.5" />
+        <StatusBar Grid.Row="5" Height="25" Name="statusBar1" VerticalAlignment="Bottom"  Grid.ColumnSpan="7" />
+        <Button Content="Open image" Grid.Row="1" Height="25" HorizontalAlignment="Center"  Name="btnOpenImage" Grid.RowSpan="4" Width="95" Click="btnOpenImage_Click" Grid.Column="0" Grid.ColumnSpan="5" Background="#FFEFEFEF" BorderThickness="0.5" />
+        <Image Grid.Row="5" Height="23" HorizontalAlignment="Left"  Name="imgDimension" Stretch="Fill"  Width="23
+               " Margin="10,0,0,0" Source="/prsv02;component/Images/px.png" VerticalAlignment="Bottom"/>
+        <Image Grid.Column="2" Grid.Row="5" Height="23" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,0" Name="imgSize" Stretch="Fill" Width="20" Source="/prsv02;component/Images/size.png" />
+        <Label Content="256 x 256 px" FontSize="12" Grid.Column="1" Grid.Row="5" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Name="lblDimension"  />
+        <Label Content="Size: 118.4KB" FontSize="12" Grid.Column="3" Grid.Row="5" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Name="lblSize"/>
+        <Label Content="" FontSize="12" Grid.Column="4" Grid.Row="5" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Name="lblExecutedTIme"/>
+        <Image Grid.Column="3" Grid.Row="2" Height="39" HorizontalAlignment="Left" Margin="37,79,0,0" Name="imgOpen" Stretch="Fill" VerticalAlignment="Top" Width="42" Source="/prsv02;component/Images/browse.png" />
+    </Grid>
+</Window>
